@@ -1,0 +1,57 @@
+Attribute VB_Name = "ExtratorModulos"
+#If VBA7 Then
+    Private Declare PtrSafe Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As LongPtr)
+#Else
+    Public Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
+#End If
+
+Private Vbcoms As Object
+Private Vbcom As Object
+Private Sub Extrair()
+On Error GoTo 1
+Set Vbcoms = Application.VBE.ActiveVBProject.VBComponents
+If VerificaPastaExiste Then
+    For Each Vbcom In Vbcoms
+        Vbcom.Export CurrentProject.Path & "\modules\" & Vbcom.Name
+    Next
+End If
+Debug.Print "SUCESSO!!!"
+Dim comentario As String
+If MsgBox("Deseja comitar?", vbYesNo, "Atenção") = vbYes Then
+    comentario = InputBox("Informe um comentário (Optional)", "Commit")
+    Call ComandoGit(comentario)
+End If
+Exit Sub
+1:
+MsgBox Err.Description, vbCritical, "Atenção."
+End Sub
+Private Function VerificaPastaExiste() As Boolean
+Dim fso As Object
+Dim caminho As String
+caminho = CurrentProject.Path & "\modules"
+Set fso = CreateObject("Scripting.FileSystemObject")
+If fso.FolderExists(caminho) Then
+    Call fso.DeleteFolder(caminho)
+    Call fso.createfolder(caminho)
+    VerificaPastaExiste = True
+Else
+    Call fso.createfolder(caminho)
+    VerificaPastaExiste = True
+End If
+
+End Function
+Public Sub ComitarProjeto()
+Call Extrair
+End Sub
+Private Sub ComandoGit(Optional comentario As String)
+    Dim cmm As String
+    Call Shell("cmd.exe /S /K" & "perl a.pl c:\temp", vbNormalFocus)
+    Call Sleep(1000)
+    cmm = "cd " & CurrentProject.Path
+    cmm = cmm & " & " & "git add ."
+    cmm = cmm & " & " & "git commit -m """ & comentario & "-" & Format(Now, "dd-mm-yyyy hh_mm_ss") & """"
+    cmm = cmm & " & " & "git push"
+    cmm = cmm & " & " & CurrentProject.FullName
+    cmm = cmm & " & " & "exit"
+    Call VBA.SendKeys(cmm)
+End Sub
