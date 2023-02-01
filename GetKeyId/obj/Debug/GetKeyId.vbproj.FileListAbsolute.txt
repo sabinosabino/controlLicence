@@ -1,0 +1,13 @@
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\obj\Debug\GetKeyId.vbproj.AssemblyReference.cache
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\obj\Debug\GetKeyId.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\obj\Debug\GetKeyId.Form1.resources
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\obj\Debug\GetKeyId.Resources.resources
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\obj\Debug\GetKeyId.vbproj.GenerateResource.cache
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\obj\Debug\GetKeyId.vbproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\bin\Debug\GetKeyId.exe.config
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\bin\Debug\GetKeyId.exe
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\bin\Debug\GetKeyId.pdb
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\bin\Debug\GetKeyId.xml
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\obj\Debug\GetKeyId.exe
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\obj\Debug\GetKeyId.xml
+C:\Users\Admin\Documents\02-Projetos\controlLicence\GetKeyId\obj\Debug\GetKeyId.pdb
