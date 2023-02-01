@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\bin\Debug\CodigoTeste.exe.config
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\bin\Debug\CodigoTeste.exe
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\bin\Debug\CodigoTeste.pdb
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\bin\Debug\CodigoTeste.xml
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\obj\Debug\CodigoTeste.vbproj.AssemblyReference.cache
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\obj\Debug\CodigoTeste.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\obj\Debug\CodigoTeste.Form1.resources
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\obj\Debug\CodigoTeste.Resources.resources
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\obj\Debug\CodigoTeste.vbproj.GenerateResource.cache
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\obj\Debug\CodigoTeste.vbproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\obj\Debug\CodigoTeste.exe
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\obj\Debug\CodigoTeste.xml
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\obj\Debug\CodigoTeste.pdb
+C:\Users\Admin\Documents\02-Projetos\controlLicence\CodigoTeste\obj\Debug\CodigoTeste.fRegistrar.resources
